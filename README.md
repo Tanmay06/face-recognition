@@ -1,6 +1,6 @@
 # Face Recognition using Neural Network
 
-It is pretty easy for human to recognise each person individually because we are able to understand and remember human facial features like eyes, nose, shape, e.t.c; but it is difficult for the machines as for them  the input, basically image or video frame, is a grid of random numbers arranged together. To make machines able to recognise faces we need to train them to understand the facial features of a person. At the fundamentally, this is done by training machines to look for group of pixels which act as a facial feature and use them to understand the image. Here, we are using a HAAR cascade classifier to detect faces in the image and then feeding these faces to our Neural Network to recognise the person for whom our network is trained for.
+It is pretty easy for human to recognise each person individually because we are able to understand and remember human facial features like eyes, nose, shape, e.t.c; but it is difficult for the machines as for them  the input, basically image or video frame, is a grid of random numbers arranged together. To make machines able to recognise faces we need to train them to understand the facial features of a person. Fundamentally, this is done by training machines to look for group of pixels which act as a facial feature and use them to understand the image. Here, we are using a HAAR cascade classifier to detect faces in the image and then feeding these faces to our Neural Network to recognise the person for whom our network is trained for.
 
 <h2>Steps Involved</h2>
 <ol>
